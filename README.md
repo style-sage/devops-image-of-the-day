@@ -42,6 +42,7 @@ export RDS_PORT=<...>
 export S3_BUCKET_NAME=<...>
 pipenv run manage.py migrate
 pipenv run manage.py createsu
+pipenv run manage.py test
 pipenv run manage.py runserver
 ```
 
@@ -50,4 +51,7 @@ Fill in Name, Tagline and upload one image. Click on 'Save'.
 Then navigate to http://127.0.0.1:8000/ and you should see your image.
 
 # How to run tests
-
+```
+< define environment variables >
+pipenv run manage.py test
+```

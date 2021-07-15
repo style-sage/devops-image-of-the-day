@@ -37,8 +37,8 @@ S3_BUCKET_NAME=
 **Prerequisites:** you need python 3.7 and pipenv installed. You also need access to an RDS (or any postgresql) database and S3
 
 ```
-git clone <repo>
-cd <dir>
+git clone git@github.com:style-sage/devops-image-of-the-day.git
+cd devops-image-of-the-day
 pipenv install
 export DJANGO_SETTINGS_MODULE=iotd.settings
 export RDS_DB_NAME=<...>

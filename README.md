@@ -2,9 +2,10 @@
 
 This is a simple Django project that makes use of some AWS resources.
 
-It is inspired by https://github.com/realpython/image-of-the-day/ with two differences:
+It is inspired by https://github.com/realpython/image-of-the-day/ with three differences:
 * use more recent versions of Django, Pillow, etc
 * use S3 to store images
+* it has unit tests for views
 
 
 # Configuration

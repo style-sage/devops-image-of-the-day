@@ -138,6 +138,11 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_ROOT = os.path.join(BASE_DIR, "..", "www", "media")
 MEDIA_URL = '/media/'
 
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+AWS_STORAGE_BUCKET_NAME = os.environ['S3_BUCKET_NAME']
+AWS_LOCATION = 'devops-tech-assignment'  # folder name
+AWS_DEFAULT_ACL = 'public-read'
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 

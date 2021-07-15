@@ -53,9 +53,13 @@ pipenv run python manage.py test
 pipenv run python manage.py runserver
 ```
 
-Now, open http://127.0.0.1:8000/admin, login with `admin`, `admin` and click on the '+ Add' button next to Featured Images
-Fill in Name, Tagline and upload one image. Click on 'Save'.
-Then navigate to http://127.0.0.1:8000/ and you should see your image.
+Now, open http://127.0.0.1:8000/admin :
+* login with `admin`, `admin`
+* click on the '+ Add' button next to Featured Images
+* fill in Name, Tagline and upload one image
+* Click on 'Save'.
+
+Finally navigate to http://127.0.0.1:8000/ and you should see your image.
 
 # How to run tests
 ```
